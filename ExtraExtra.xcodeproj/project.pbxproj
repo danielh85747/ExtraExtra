@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		850286A11E77210100D8EAD7 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850286A01E77210100D8EAD7 /* Button.swift */; };
+		8515DC1C1E7626A8003C35E5 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8515DC1B1E7626A8003C35E5 /* Background.png */; };
+		8515DC1E1E762F84003C35E5 /* Window.png in Resources */ = {isa = PBXBuildFile; fileRef = 8515DC1D1E762F84003C35E5 /* Window.png */; };
+		851857B61E7B3AC2003D9E53 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851857B51E7B3AC2003D9E53 /* Table.swift */; };
+		851857B81E7B3E16003D9E53 /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851857B71E7B3E16003D9E53 /* Players.swift */; };
+		851857BA1E7C599B003D9E53 /* instructions.png in Resources */ = {isa = PBXBuildFile; fileRef = 851857B91E7C599A003D9E53 /* instructions.png */; };
+		851AD2441E8072AE004B7A08 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851AD2431E8072AE004B7A08 /* GameKit.framework */; };
+		851AD2471E8325CF004B7A08 /* Do-your-best-to-avoid-go.png in Resources */ = {isa = PBXBuildFile; fileRef = 851AD2461E8325C5004B7A08 /* Do-your-best-to-avoid-go.png */; };
+		859747721E7773C000F06D13 /* ExtraExtra.png in Resources */ = {isa = PBXBuildFile; fileRef = 859747711E7773C000F06D13 /* ExtraExtra.png */; };
+		859747751E78510E00F06D13 /* throwing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 859747731E78510E00F06D13 /* throwing.mp3 */; };
+		859747761E78510E00F06D13 /* shattering.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 859747741E78510E00F06D13 /* shattering.mp3 */; };
+		859747791E7851E900F06D13 /* Sound-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 859747771E7851E900F06D13 /* Sound-off.png */; };
+		8597477A1E7851E900F06D13 /* Sound-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 859747781E7851E900F06D13 /* Sound-on.png */; };
+		8597477C1E78670100F06D13 /* Tap-to-throw-newspaper-a.png in Resources */ = {isa = PBXBuildFile; fileRef = 8597477B1E78670100F06D13 /* Tap-to-throw-newspaper-a.png */; };
+		8597477E1E786E6500F06D13 /* Leaderboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 8597477D1E786E6500F06D13 /* Leaderboard.png */; };
+		859747801E78772500F06D13 /* Tap-to-play-again.png in Resources */ = {isa = PBXBuildFile; fileRef = 8597477F1E78772500F06D13 /* Tap-to-play-again.png */; };
+		85BA37291E76DFBE00615E65 /* Game-Over.png in Resources */ = {isa = PBXBuildFile; fileRef = 85BA37281E76DFBE00615E65 /* Game-Over.png */; };
 		85E1BFB01E724D2F0034B5E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E1BFAF1E724D2F0034B5E5 /* AppDelegate.swift */; };
 		85E1BFB21E724D2F0034B5E5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 85E1BFB11E724D2F0034B5E5 /* GameScene.sks */; };
 		85E1BFB41E724D2F0034B5E5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 85E1BFB31E724D2F0034B5E5 /* Actions.sks */; };
@@ -15,9 +32,32 @@
 		85E1BFBB1E724D2F0034B5E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E1BFB91E724D2F0034B5E5 /* Main.storyboard */; };
 		85E1BFBD1E724D2F0034B5E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E1BFBC1E724D2F0034B5E5 /* Assets.xcassets */; };
 		85E1BFC01E724D2F0034B5E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E1BFBE1E724D2F0034B5E5 /* LaunchScreen.storyboard */; };
+		85E1BFD01E72532B0034B5E5 /* newspaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E1BFCA1E72532A0034B5E5 /* newspaper.png */; };
+		9D6EC1D61E8D99C400B6000D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D6EC1D51E8D99C400B6000D /* GoogleService-Info.plist */; };
+		9D6EC1FC1E9195C000B6000D /* Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6EC1FB1E9195BF00B6000D /* Handler.swift */; };
+		EFDE23D985503388B5A82680 /* Pods_ExtraExtra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27396F7C8C4A10C03B491BDF /* Pods_ExtraExtra.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27396F7C8C4A10C03B491BDF /* Pods_ExtraExtra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExtraExtra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		850286A01E77210100D8EAD7 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Button.swift; path = ../Button.swift; sourceTree = "<group>"; };
+		8515DC1B1E7626A8003C35E5 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		8515DC1D1E762F84003C35E5 /* Window.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Window.png; sourceTree = "<group>"; };
+		851857B51E7B3AC2003D9E53 /* Table.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		851857B71E7B3E16003D9E53 /* Players.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
+		851857B91E7C599A003D9E53 /* instructions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instructions.png; sourceTree = "<group>"; };
+		851857BE1E7F62BC003D9E53 /* ExtraExtra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExtraExtra.entitlements; sourceTree = "<group>"; };
+		851AD2431E8072AE004B7A08 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		851AD2461E8325C5004B7A08 /* Do-your-best-to-avoid-go.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Do-your-best-to-avoid-go.png"; sourceTree = "<group>"; };
+		859747711E7773C000F06D13 /* ExtraExtra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExtraExtra.png; sourceTree = "<group>"; };
+		859747731E78510E00F06D13 /* throwing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = throwing.mp3; sourceTree = "<group>"; };
+		859747741E78510E00F06D13 /* shattering.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shattering.mp3; sourceTree = "<group>"; };
+		859747771E7851E900F06D13 /* Sound-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sound-off.png"; sourceTree = "<group>"; };
+		859747781E7851E900F06D13 /* Sound-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sound-on.png"; sourceTree = "<group>"; };
+		8597477B1E78670100F06D13 /* Tap-to-throw-newspaper-a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tap-to-throw-newspaper-a.png"; sourceTree = "<group>"; };
+		8597477D1E786E6500F06D13 /* Leaderboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Leaderboard.png; sourceTree = "<group>"; };
+		8597477F1E78772500F06D13 /* Tap-to-play-again.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tap-to-play-again.png"; sourceTree = "<group>"; };
+		85BA37281E76DFBE00615E65 /* Game-Over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Game-Over.png"; sourceTree = "<group>"; };
 		85E1BFAC1E724D2F0034B5E5 /* ExtraExtra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtraExtra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E1BFAF1E724D2F0034B5E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85E1BFB11E724D2F0034B5E5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -28,6 +68,12 @@
 		85E1BFBC1E724D2F0034B5E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85E1BFBF1E724D2F0034B5E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85E1BFC11E724D2F0034B5E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85E1BFCA1E72532A0034B5E5 /* newspaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newspaper.png; sourceTree = "<group>"; };
+		9D6EC1D51E8D99C400B6000D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9D6EC1FB1E9195BF00B6000D /* Handler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Handler.swift; sourceTree = "<group>"; };
+		9D7C7F7D1E928D4C00C080DE /* XC_iOS_comdemoExtraExtra.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = XC_iOS_comdemoExtraExtra.mobileprovision; sourceTree = "<group>"; };
+		A23393781C7038F2CAAE51A7 /* Pods-ExtraExtra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExtraExtra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExtraExtra/Pods-ExtraExtra.debug.xcconfig"; sourceTree = "<group>"; };
+		D204852F6D6CFD56B6AD83EB /* Pods-ExtraExtra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExtraExtra.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExtraExtra/Pods-ExtraExtra.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +81,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFDE23D985503388B5A82680 /* Pods_ExtraExtra.framework in Frameworks */,
+				851AD2441E8072AE004B7A08 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		214B3158309486FFE8CEDDE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A23393781C7038F2CAAE51A7 /* Pods-ExtraExtra.debug.xcconfig */,
+				D204852F6D6CFD56B6AD83EB /* Pods-ExtraExtra.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5BF2275D8938BB39EF05E992 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				851AD2431E8072AE004B7A08 /* GameKit.framework */,
+				27396F7C8C4A10C03B491BDF /* Pods_ExtraExtra.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		85E1BFA31E724D2F0034B5E5 = {
 			isa = PBXGroup;
 			children = (
 				85E1BFAE1E724D2F0034B5E5 /* ExtraExtra */,
 				85E1BFAD1E724D2F0034B5E5 /* Products */,
+				214B3158309486FFE8CEDDE2 /* Pods */,
+				5BF2275D8938BB39EF05E992 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +128,36 @@
 		85E1BFAE1E724D2F0034B5E5 /* ExtraExtra */ = {
 			isa = PBXGroup;
 			children = (
+				851857BE1E7F62BC003D9E53 /* ExtraExtra.entitlements */,
+				9D7C7F7D1E928D4C00C080DE /* XC_iOS_comdemoExtraExtra.mobileprovision */,
 				85E1BFAF1E724D2F0034B5E5 /* AppDelegate.swift */,
 				85E1BFB11E724D2F0034B5E5 /* GameScene.sks */,
 				85E1BFB31E724D2F0034B5E5 /* Actions.sks */,
 				85E1BFB51E724D2F0034B5E5 /* GameScene.swift */,
+				9D6EC1FB1E9195BF00B6000D /* Handler.swift */,
 				85E1BFB71E724D2F0034B5E5 /* GameViewController.swift */,
+				850286A01E77210100D8EAD7 /* Button.swift */,
+				851857B51E7B3AC2003D9E53 /* Table.swift */,
+				851857B71E7B3E16003D9E53 /* Players.swift */,
 				85E1BFB91E724D2F0034B5E5 /* Main.storyboard */,
 				85E1BFBC1E724D2F0034B5E5 /* Assets.xcassets */,
 				85E1BFBE1E724D2F0034B5E5 /* LaunchScreen.storyboard */,
+				8515DC1B1E7626A8003C35E5 /* Background.png */,
+				859747711E7773C000F06D13 /* ExtraExtra.png */,
+				8597477D1E786E6500F06D13 /* Leaderboard.png */,
+				85E1BFCA1E72532A0034B5E5 /* newspaper.png */,
+				851857B91E7C599A003D9E53 /* instructions.png */,
+				85BA37281E76DFBE00615E65 /* Game-Over.png */,
+				8597477F1E78772500F06D13 /* Tap-to-play-again.png */,
+				8597477B1E78670100F06D13 /* Tap-to-throw-newspaper-a.png */,
+				851AD2461E8325C5004B7A08 /* Do-your-best-to-avoid-go.png */,
+				8515DC1D1E762F84003C35E5 /* Window.png */,
+				859747771E7851E900F06D13 /* Sound-off.png */,
+				859747781E7851E900F06D13 /* Sound-on.png */,
+				859747731E78510E00F06D13 /* throwing.mp3 */,
+				859747741E78510E00F06D13 /* shattering.mp3 */,
 				85E1BFC11E724D2F0034B5E5 /* Info.plist */,
+				9D6EC1D51E8D99C400B6000D /* GoogleService-Info.plist */,
 			);
 			path = ExtraExtra;
 			sourceTree = "<group>";
@@ -80,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85E1BFC41E724D2F0034B5E5 /* Build configuration list for PBXNativeTarget "ExtraExtra" */;
 			buildPhases = (
+				8FCAAEBE12F8F6B5A3B6C166 /* [CP] Check Pods Manifest.lock */,
 				85E1BFA81E724D2F0034B5E5 /* Sources */,
 				85E1BFA91E724D2F0034B5E5 /* Frameworks */,
 				85E1BFAA1E724D2F0034B5E5 /* Resources */,
+				9777D30856DAF39AE4F767BD /* [CP] Embed Pods Frameworks */,
+				EBEEC7B07616315C7B47C1FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,7 +197,16 @@
 				TargetAttributes = {
 					85E1BFAB1E724D2F0034B5E5 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 63TQM7UJ49;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -132,23 +233,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E1BFD01E72532B0034B5E5 /* newspaper.png in Resources */,
+				851857BA1E7C599B003D9E53 /* instructions.png in Resources */,
+				8515DC1C1E7626A8003C35E5 /* Background.png in Resources */,
+				8597477E1E786E6500F06D13 /* Leaderboard.png in Resources */,
 				85E1BFBB1E724D2F0034B5E5 /* Main.storyboard in Resources */,
 				85E1BFB21E724D2F0034B5E5 /* GameScene.sks in Resources */,
+				859747801E78772500F06D13 /* Tap-to-play-again.png in Resources */,
+				851AD2471E8325CF004B7A08 /* Do-your-best-to-avoid-go.png in Resources */,
+				8597477A1E7851E900F06D13 /* Sound-on.png in Resources */,
+				859747791E7851E900F06D13 /* Sound-off.png in Resources */,
 				85E1BFBD1E724D2F0034B5E5 /* Assets.xcassets in Resources */,
 				85E1BFC01E724D2F0034B5E5 /* LaunchScreen.storyboard in Resources */,
+				859747761E78510E00F06D13 /* shattering.mp3 in Resources */,
+				859747721E7773C000F06D13 /* ExtraExtra.png in Resources */,
+				859747751E78510E00F06D13 /* throwing.mp3 in Resources */,
+				85BA37291E76DFBE00615E65 /* Game-Over.png in Resources */,
 				85E1BFB41E724D2F0034B5E5 /* Actions.sks in Resources */,
+				9D6EC1D61E8D99C400B6000D /* GoogleService-Info.plist in Resources */,
+				8515DC1E1E762F84003C35E5 /* Window.png in Resources */,
+				8597477C1E78670100F06D13 /* Tap-to-throw-newspaper-a.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FCAAEBE12F8F6B5A3B6C166 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9777D30856DAF39AE4F767BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExtraExtra/Pods-ExtraExtra-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBEEC7B07616315C7B47C1FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExtraExtra/Pods-ExtraExtra-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		85E1BFA81E724D2F0034B5E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D6EC1FC1E9195C000B6000D /* Handler.swift in Sources */,
+				851857B81E7B3E16003D9E53 /* Players.swift in Sources */,
 				85E1BFB61E724D2F0034B5E5 /* GameScene.swift in Sources */,
+				851857B61E7B3AC2003D9E53 /* Table.swift in Sources */,
 				85E1BFB81E724D2F0034B5E5 /* GameViewController.swift in Sources */,
+				850286A11E77210100D8EAD7 /* Button.swift in Sources */,
 				85E1BFB01E724D2F0034B5E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,11 +438,13 @@
 		};
 		85E1BFC51E724D2F0034B5E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A23393781C7038F2CAAE51A7 /* Pods-ExtraExtra.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63TQM7UJ49;
 				INFOPLIST_FILE = ExtraExtra/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = demo.ExtraExtra;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.ExtraExtra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -282,11 +452,13 @@
 		};
 		85E1BFC61E724D2F0034B5E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D204852F6D6CFD56B6AD83EB /* Pods-ExtraExtra.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63TQM7UJ49;
 				INFOPLIST_FILE = ExtraExtra/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = demo.ExtraExtra;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.ExtraExtra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -311,6 +483,7 @@
 				85E1BFC61E724D2F0034B5E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
